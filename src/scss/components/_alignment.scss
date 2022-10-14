@@ -1,0 +1,15 @@
+.text-center {
+  text-align: center;
+}
+
+.front-z {
+  z-index: 1;
+}
+
+.back-z {
+  z-index: -1;
+}
+
+.custom-transition {
+  @include transition-custom();
+}

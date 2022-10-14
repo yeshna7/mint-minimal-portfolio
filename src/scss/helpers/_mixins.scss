@@ -1,0 +1,63 @@
+/*Fonts*/
+@function rem($px, $base: 10px) {
+    @return $px / $base * 1rem;
+}
+
+@mixin font-size-custom($size) {
+    font-size: $size;
+    font-size: rem($size);
+}
+
+/*Transitions*/
+@mixin transition-custom($property: all, $time: 300ms, $a: 0.215, $b: 0.61, $c: 0.355, $d: 1 , $delay: 0ms ) {
+    transition: $property $time cubic-bezier($a, $b, $c, $d) $delay;
+}
+
+/*Image fit*/
+@mixin image-fit-area($layout) {
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    @if $layout == "wfha" {
+        width: 100%;
+        height: auto;
+
+    }
+    @else if $layout == "wahf" {
+        width: auto;
+        height: 100%;
+    }
+}
+
+/*Box Shadow*/
+@mixin one-box-shadow($h-shadow: 0, $v-shadow: 5px, $blur: 19px, $spread: -2px, $r: 0, $g: 0, $b: 0, $a: 0.85) {
+    -webkit-box-shadow: $h-shadow $v-shadow $blur $spread rgba($r, $g, $b, $a);
+    -moz-box-shadow: $h-shadow $v-shadow $blur $spread rgba($r, $g, $b, $a);
+    box-shadow: $h-shadow $v-shadow $blur $spread rgba($r, $g, $b, $a);
+}
+
+/*Multiply*/
+@function multiply ($number,$times){
+    @return $number*$times;
+}
+
+/*Render frame*/
+@mixin render-frame($color,$pad,$bg:none){
+    $padX2:multiply($pad,2);
+    content:'';
+    position:absolute;
+    top:0;
+    left:$pad;
+    width: calc(100% - #{$padX2} );
+    height:100%;
+    border:1px solid $color;
+    background:$bg;
+    z-index:-1;
+}
+
+
+@mixin flex-parent-with-alignment($vertical:center,$horizontal:flex-start){
+  display:flex;
+  align-items:$vertical;
+  justify-content:$horizontal;
+}

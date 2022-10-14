@@ -1,0 +1,24 @@
+.navbar{
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+       
+    &__link{
+        text-decoration: none;
+        font-size:15px;
+    }   
+    &__list{
+        display: inline-block;
+        margin-right: 87px;
+        text-transform: uppercase;
+    }
+    
+
+}
+// .logo{
+//     width:150px;
+// }

@@ -1,0 +1,75 @@
+html {    
+  // This defines what 1rem is
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+
+  li {
+    display: block;
+  }
+}
+
+p {
+  margin-bottom: 0;
+}
+
+::selection {
+  background-color: $black;
+  color: $white;
+}
+ 
+/*Legend*/
+.legend-element {
+  .filter-wrapper-top & {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-weight: $regular;
+  }
+}
+
+/*Table*/
+
+table {
+  width: 100%;
+  text-align: center;
+
+
+  caption {
+    padding: 0 0 10px;
+    color: $black;
+    text-align: center;
+    caption-side: top;
+    line-height: 1.33;
+    @include font-size-custom(24px);
+  }
+
+  thead {
+    font-weight: $regular;
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+    line-height: 1.33;
+    @include font-size-custom(18px);
+    font-weight: $regular;
+  }
+
+  tr {
+    border-bottom: 1px solid $black;
+    line-height: 1.56;
+    @include font-size-custom(18px);
+  }
+
+  td, th {
+    padding: 25px 10px;
+
+    @include media-breakpoint-up(lg) {
+      padding-left: 22px;
+      padding-right: 22px;
+    }
+
+  }
+}

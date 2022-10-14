@@ -1,0 +1,48 @@
+.work {
+    &__title {
+        font-size: 58.79px;
+        margin-bottom: 76px;
+    }
+
+    &__link {
+        text-decoration: none;
+        margin-right: 38px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+   
+
+    &__list {
+        display: inline-block;
+    }
+    &__item{
+        margin-bottom: 82px;
+    }
+}
+
+.active {
+    background-color: $yellow;
+    padding: 7px 15px 14px 20px
+}
+ .left{
+    margin-left: 420px ;
+ }
+ .btn-show{
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: $yellow;
+    padding: 17px 58px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+ }
+
+ .image1{
+    margin-bottom: 29px;
+ }
+
+ .image{
+    margin-bottom: 68px;
+    
+ }

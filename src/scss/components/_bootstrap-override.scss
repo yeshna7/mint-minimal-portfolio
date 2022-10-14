@@ -1,0 +1,14 @@
+.container-fluid {
+  word-wrap: break-word;
+}
+
+
+.overflow-hidden {
+  overflow: hidden;
+
+  /*Ipad fix*/
+  &.ios {
+    position: fixed;
+    width: 100%;
+  }
+}

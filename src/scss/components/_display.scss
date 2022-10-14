@@ -1,0 +1,13 @@
+.mobile {
+  display: block;
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
+
+.desktop {
+  display: none;
+  @include media-breakpoint-up(lg) {
+    display: block;
+  }
+}

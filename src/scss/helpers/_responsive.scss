@@ -1,0 +1,42 @@
+/*Mobile*/
+$mobile-normal-range-landscape: "(min-device-width: 320px) and (max-device-width:768px) and (orientation: landscape)";
+
+/*Normal tablets (including ipad)*/
+$tablet-normal-range-portrait: "(min-device-width: 768px) and (max-device-width:1024px) and (orientation: portrait)";
+$tablet-normal-range-landscape: "(min-device-width: 768px) and (max-device-width:1024px) and (orientation: landscape)";
+
+
+/*Tablets with retina displays (including ipad pro)*/
+$ipad-pro-portrait-breakpoint: "(min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)";
+$ipad-pro-landscape-breakpoint: "(min-device-width: 768px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2)";
+
+
+
+/* Responsive Mixins */
+@mixin respond($media) {
+    @if $media == "mobile-normal-range-landscape" {
+        @media only screen and #{$mobile-normal-range-landscape} { @content; }
+    }
+
+    @if $media == "tablet-normal-range-portrait" {
+        @media only screen and #{$tablet-normal-range-portrait} { @content; }
+    }
+
+    @if $media == "tablet-normal-range-landscape" {
+        @media only screen and #{$tablet-normal-range-landscape} { @content; }
+    }
+
+    @if $media == "ipad-pro-portrait" {
+        @media only screen and #{$ipad-pro-portrait-breakpoint} { @content; }
+    }
+
+    @else if $media == "ipad-pro-landscape" {
+        @media only screen and #{$ipad-pro-landscape-breakpoint} { @content; }
+    }
+}
+
+@mixin responsive-up($breakpoint) {
+  @media only screen and (min-width: $breakpoint) {
+      @content;
+  }
+}

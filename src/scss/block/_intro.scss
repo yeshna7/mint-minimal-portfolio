@@ -1,0 +1,25 @@
+.intro{
+    // padding:180px 0 200px 180px;
+    &__title{
+        font-size:60px;
+        line-height: 65px;
+        margin-bottom: 51px;
+    }
+    &__desc{
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 48px;
+    }
+}
+.btn{
+// padding: 15px 33px 22px 33px;
+text-transform: uppercase;
+
+}
+.btn-warning{
+    padding: 15px 24px 17px 35px;
+    background-color: $yellow;
+    font-size:15px;
+    margin-bottom: 203px;
+   
+}
