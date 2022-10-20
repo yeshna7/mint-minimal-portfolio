@@ -1,14 +1,21 @@
 .intro{
     // padding:180px 0 200px 180px;
     &__title{
-        font-size:60px;
-        line-height: 65px;
-        margin-bottom: 51px;
+        font-size:30px;
+        line-height: 35px;
+        margin-bottom: 40px;
+        font-family:$Montserrat-ExtraBold ;
+        @include media-breakpoint-up(lg) {
+            font-size:60px;
+            line-height: 65px;
+            margin-bottom: 51px;
+        }
     }
     &__desc{
         font-size: 12px;
         line-height: 20px;
         margin-bottom: 48px;
+        font-family: $Montserrat-Medium;
     }
 }
 .btn{
@@ -20,6 +27,10 @@ text-transform: uppercase;
     padding: 15px 24px 17px 35px;
     background-color: $yellow;
     font-size:15px;
-    margin-bottom: 203px;
+    margin-bottom: 100px;
+    font-family: $Montserrat-Medium;
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 203px;
+    }
    
 }

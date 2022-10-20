@@ -2,7 +2,8 @@ $colors: (
   white: #ffffff,
   black: #000000,
   red: #ff0000,
-  yellow:#ffe100
+  yellow:#ffe100,
+  brown:#1e1e1e
 );
 
 $size: ( 
@@ -28,5 +29,12 @@ $white: map-get($colors, white);
 $black: map-get($colors, black);
 $red: map-get($colors, red);
 $yellow: map-get($colors, yellow);
+$brown: map-get($colors, brown);
 
 $regular: map-get($font-weight, regular);
+
+$Montserrat: 'Montserrat';
+$Montserrat-Bold: 'Montserrat Bold';
+$Montserrat-ExtraBold:'Montserrat ExtraBold';
+$Montserrat-Medium:'Montserrat Medium';
+

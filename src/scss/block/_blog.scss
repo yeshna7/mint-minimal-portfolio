@@ -1,0 +1,59 @@
+.blog {
+    padding: 150px 0 20px 0;
+
+    &__title {
+        font-size: 40px;
+        font-family: $Montserrat-ExtraBold;
+        margin-bottom: 32px;
+        text-transform: uppercase;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 58.79px;
+            margin-bottom: 64px;
+        }
+    }
+
+    &__desc {
+        font-size: 12px;
+        font-family: $Montserrat-Medium;
+        line-height: 25px;
+        margin-bottom: 32px;
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 64px;
+        }
+    }
+
+    &__img {
+        margin-bottom: 28px;
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 32px;
+        }
+    }
+
+    &__type {
+        font-size: 15px;
+        font-family: $Montserrat-ExtraBold;
+        margin-bottom: 32px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 12px;
+        font-family: $Montserrat-Medium;
+        margin-bottom: 24px;
+        line-height: 24px;
+    }
+
+    &__date {
+        font-size: 12px;
+        font-family: $Montserrat-Medium;
+        margin-bottom: 100px;
+        font-family: $Montserrat-Medium;
+    }
+
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 200px;
+    }
+}

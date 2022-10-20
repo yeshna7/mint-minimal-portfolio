@@ -1,5 +1,10 @@
 
-(function($) {
+$(document).ready(function(){
+    $(".toggle-button").click(function() {
+      $("body").toggleClass("showing");
+    });
 
-})(jQuery);
-
+    $(".toggle-button-close").click(function () {
+        $("body").removeClass("showing");
+      });
+});

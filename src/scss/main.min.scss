@@ -21,6 +21,9 @@
 @import 'base/base';
 @import 'base/typography';
 @import 'base/animations';
+@import 'base/icomoon';
+
+
 
 
 /* Components */
@@ -43,3 +46,6 @@
 /* block */
 @import 'block/intro';
 @import 'block/work';
+@import 'block/About';
+@import 'block/blog';
+@import 'block/contact';

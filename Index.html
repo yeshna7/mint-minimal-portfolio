@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="dist/css/main.min.css">
     <title>Mint-minimal-portfolio</title>
 </head>
@@ -32,6 +33,12 @@
                             <a href="#" class="navbar__link">Contact</a>
                         </li>
                     </ul>
+                    <span class="toggle-button">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                    <span class="toggle-button-close">
+                        <i class="fa fa-close"></i>
+                    </span>
                 </div>
             </div>
         </nav>
@@ -43,7 +50,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h1 class="intro__title">Hello!!! We Are Creative Digital Agency</h1>
+                        <h2 class="intro__title">Hello!!! We Are Creative Digital Agency</h2>
                         <p class="intro__desc"> Lorem ipsum dolor sit amet, co
                             ctetuer adipiscing elit, sed do euismod tempor incididunt ut labore et dolore magna aliqua
                         </p>
@@ -60,84 +67,262 @@
                     </div>
                 </div>
             </div>
-            <div class="work">
-                <div class="container">
-                    <div class="work_wrapper">
-                        <h3 class="work__title"> work showcase</h3>
-                        <ul class="work__item">
-                            <li class="work__list">
-                                <a href="#" class="work__link active">All</a>
-                            </li>
-                            <li class="work__list">
-                                <a href="#" class="work__link">Branding</a></li>
-                            <li class="work__list">
-                                <a href="#" class="work__link">illustration</a>
-                            </li>
-                            <li class="work__list">
-                                <a href="#" class="work__link">web</a>
-                            </li>
-                            <li class="work__list">
-                                <a href="#" class="work__link  left">newest first</a>
-                            </li>
-                        </ul>
-                        <div class="work__photo">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <picture>
-                                        <source media="(min-width: 650px)" srcset=" https://placeimg.com/374/299/any">
-                                        <source media="(min-width: 430px)" srcset=" https://placeimg.com/374/299/any">
-                                        <img src=" https://placeimg.com/374/299/any" class="image1">
-                                    </picture>
-                                    <picture>
-                                        <source media="(min-width: 650px)" srcset=" https://placeimg.com/371/500/any">
-                                        <source media="(min-width: 430px)" srcset=" https://placeimg.com/371/500/any">
-                                        <img src=" https://placeimg.com/371/500/any" class="image">
-                                    </picture>
-                                </div>
-                                <div class="col-lg-4">
-                                    <picture>
-                                        <source media="(min-width: 650px)" srcset=" https://placeimg.com/371/500/any">
-                                        <source media="(min-width: 430px)" srcset=" https://placeimg.com/371/500/any">
-                                        <img src=" https://placeimg.com/371/500/any" class="image1">
-                                    </picture>
-                                    <picture>
-                                        <source media="(min-width: 650px)" srcset=" https://placeimg.com/374/299/any">
-                                        <source media="(min-width: 430px)" srcset=" https://placeimg.com/374/299/any">
-                                        <img src=" https://placeimg.com/374/299/any" class="image">
-                                    </picture>
-                                </div>
-                                <div class="col-lg-4">
-                                    <picture>
-                                        <source media="(min-width: 650px)" srcset=" https://placeimg.com/374/299/any">
-                                        <source media="(min-width: 430px)" srcset=" https://placeimg.com/374/299/any">
-                                        <img src=" https://placeimg.com/367/302/any" class="image1">
-                                    </picture>
-                                    <picture>
-                                        <source media="(min-width: 650px)" srcset=" https://placeimg.com/371/500/any">
-                                        <source media="(min-width: 430px)" srcset=" https://placeimg.com/371/500/any">
-                                        <img src=" https://placeimg.com/371/500/any" class="image">
-                                    </picture>
-                                </div>
+        </div>
+        <div class="work">
+            <div class="container">
+                <div class="work__wrapper">
+                    <h3 class="work__title"> work showcase</h3>
+                    <ul class="work__item">
+                        <li class="work__list">
+                            <a href="#" class="work__link active">All</a>
+                        </li>
+                        <li class="work__list">
+                            <a href="#" class="work__link">Branding</a></li>
+                        <li class="work__list">
+                            <a href="#" class="work__link">illustration</a>
+                        </li>
+                        <li class="work__list">
+                            <a href="#" class="work__link">web</a>
+                        </li>
+                        <li class="work__list">
+                            <a href="#" class="work__link  left">newest first</a>
+                        </li>
+                    </ul>
+                    <div class="work__photo">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <picture>
+                                    <source media="(min-width: 650px)" srcset=" https://placeimg.com/374/299/any">
+                                    <source media="(min-width: 430px)" srcset=" https://placeimg.com/374/299/any">
+                                    <img src=" https://placeimg.com/374/299/any" class="image1">
+                                </picture>
+                                <picture>
+                                    <source media="(min-width: 650px)" srcset=" https://placeimg.com/371/500/any">
+                                    <source media="(min-width: 430px)" srcset=" https://placeimg.com/371/500/any">
+                                    <img src=" https://placeimg.com/371/500/any" class="image">
+                                </picture>
                             </div>
-                            <div class="col-lg-4 offset-lg-5">
-                            <button type="submit" class="btn btn-show ">show me more</button>
+                            <div class="col-lg-4">
+                                <picture>
+                                    <source media="(min-width: 650px)" srcset=" https://placeimg.com/371/500/any">
+                                    <source media="(min-width: 430px)" srcset=" https://placeimg.com/371/500/any">
+                                    <img src=" https://placeimg.com/371/500/any" class="image1">
+                                </picture>
+                                <picture>
+                                    <source media="(min-width: 650px)" srcset=" https://placeimg.com/374/299/any">
+                                    <source media="(min-width: 430px)" srcset=" https://placeimg.com/374/299/any">
+                                    <img src=" https://placeimg.com/374/299/any" class="image">
+                                </picture>
+                            </div>
+                            <div class="col-lg-4">
+                                <picture>
+                                    <source media="(min-width: 650px)" srcset=" https://placeimg.com/374/299/any">
+                                    <source media="(min-width: 430px)" srcset=" https://placeimg.com/374/299/any">
+                                    <img src=" https://placeimg.com/367/302/any" class="image1">
+                                </picture>
+                                <picture>
+                                    <source media="(min-width: 650px)" srcset=" https://placeimg.com/371/500/any">
+                                    <source media="(min-width: 430px)" srcset=" https://placeimg.com/371/500/any">
+                                    <img src=" https://placeimg.com/371/500/any" class="image">
+                                </picture>
+                            </div>
                         </div>
+                        <div class="col-lg-4 offset-lg-5">
+                            <button type="submit" class="btn btn-show ">show me more</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="About Us">
+        </div>
+        <div class="About-Us">
+            <div class="container">
+                <h2 class="About-Us__title"> About us.</h2>
+                <p class="About-Us__desc">Lorem ipsum dolor sit amet, co
+                    ctetuer adipiscing elit, sed do euismod tempor incididunt<br> ut labore et dolore magna aliqua
+                </p>
+                <div class="About-Us__content">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <picture>
+                                <source media="(min-width: 650px)" srcset=" https://placeimg.com/640/480/any">
+                                <source media="(min-width: 430px)" srcset=" https://placeimg.com/640/480/any">
+                                <img src=" https://placeimg.com/640/480/any" class="About-Us__image">
+                            </picture>
+                            <div class="About-Us__button">
+                                <p class="title"> Luke skywalker</p>
+                                <p class="title2"> Web designer</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <picture>
+                                <source media="(min-width: 650px)" srcset=" https://placeimg.com/640/480/any">
+                                <source media="(min-width: 430px)" srcset=" https://placeimg.com/640/480/any">
+                                <img src=" https://placeimg.com/640/480/any" class="About-Us__image">
+                            </picture>
+                            <div class="About-Us__button">
+                                <p class="title"> Luke skywalker</p>
+                                <p class="title2"> Web designer</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="About-Us__contents">
+                                <h6 class="About-Us__type">Little About Us</h6>
+                                <p class="About-Us__text">Lorem ipsum dolor sit amet, consectuer
+                                    adipiscing elit, sed do euismod tempor incididunt ut labore et dolore magna
+                                    aliqua.</p>
+                                <a href="#" class="About-Us__info">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="blog">
+        </div>
+        <div class="blog">
+            <div class="container">
+                <h2 class="blog__title"> our blog.</h2>
+                <p class="blog__desc">Lorem ipsum dolor sit amet, co
+                    ctetuer adipiscing elit, sed do euismod tempor incididunt <br> ut labore et dolore magna aliqua
+                </p>
+                <div class="blog__content">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <picture>
+                                <source media="(min-width: 650px)" srcset=" https://placeimg.com/640/480/any">
+                                <source media="(min-width: 430px)" srcset=" https://placeimg.com/640/480/any">
+                                <img src=" https://placeimg.com/640/480/any " class="blog__img">
+                                <p class="blog__type">super blog article</p>
+                                <p class="blog__text">Lorem ipsum dolor sit amet, co
+                                    ctetuer adipiscing elit, sed do euismod tempor incididunt ut labore et dolore
+                                    magna aliqua</p>
+                                <p class="blog__date"> 20 may 2020</p>
+                            </picture>
+                        </div>
+                        <div class="col-lg-4">
+                            <picture>
+                                <source media="(min-width: 650px)" srcset=" https://placeimg.com/640/480/any">
+                                <source media="(min-width: 430px)" srcset=" https://placeimg.com/640/480/any">
+                                <img src=" https://placeimg.com/640/480/any" class="blog__img">
+                                <p class="blog__type">super blog article</p>
+                                <p class="blog__text">Lorem ipsum dolor sit amet, co
+                                    ctetuer adipiscing elit, sed do euismod tempor incididunt ut labore et dolore
+                                    magna aliqua</p>
+                                <p class="blog__date"> 20 may 2020</p>
+                            </picture>
+                        </div>
+                        <div class="col-lg-4">
+                            <picture>
+                                <source media="(min-width: 650px)" srcset=" https://placeimg.com/640/480/any">
+                                <source media="(min-width: 430px)" srcset=" https://placeimg.com/640/480/any">
+                                <img src=" https://placeimg.com/640/480/any" class="blog__img">
+                                <p class="blog__type">super blog article</p>
+                                <p class="blog__text">Lorem ipsum dolor sit amet, co
+                                    ctetuer adipiscing elit, sed do euismod tempor incididunt ut labore et dolore
+                                    magna aliqua</p>
+                                <p class="blog__date"> 20 may 2020</p>
+                            </picture>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="contact">
+        </div>
+        <div class="contact">
+            <div class="container">
+                <h2 class="contact__title">Contact us</h2>
+                <p class="contact__desc">Lorem ipsum dolor sit amet, co
+                    ctetuer adipiscing elit, sed do euismod tempor incididunt <br> ut labore et dolore magna aliqua
+                </p>
+                <div class="contact__content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h6 class="contact__type">Send Us Message</h6>
+                            <form>
+                                <div class="form__label">
+                                    <label for="Name">Name</label>
+                                </div>
+                                <div class="form__label">
+                                    <label for="Email">Email</label>
+                                </div>
+                                <div class="form__label1">
+                                    <label for="Message">Message</label>
+                                </div>
+                                <div class="form-item">
+                                    <button type="submit" class="btn btn-warn">send message</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6">
+                            <picture>
+                                <source media="(min-width: 650px)" srcset=" https://placeimg.com/566/472/any">
+                                <source media="(min-width: 430px)" srcset=" https://placeimg.com/566/472/any">
+                                <img src=" https://placeimg.com/566/472/any" class="contact__img">
+                            </picture>
+                        </div>
+                        <div class="contact__icons">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="object ">
+                                            <i class="fa fa-thumb-tack"></i>
+                                            <p class="contact__address">1211 Awesome Avenue,<br> NY USD</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="object">
+                                            <i class="fa fa-mobile"></i>
+                                            <p class="contact__number">+00 123 -456 -78</p>
+                                            <p class="contact__number">+00 123 -456 -78</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="object ">
+                                            <i class="fa fa-window-maximize"></i>
+                                            <p class="contact__email">mint@mintmail.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <!-- <div class="row"> -->
+                            <div class="icon">
+                                <i class="icon-facebook"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fa fa-dribbble"></i>
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
             </div>
     </main>
     <!--Main starts ends-->
     <!--footer-->
     <footer>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="">
+                            <img src="dist/images/logo.png" class="content__logo">
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="content__text">@ 2020-Mint,All Reserved</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="content__scroll"> back to top</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <!--footer-->
+    <script src="src/js/jquery-3.5.1.js"></script>
+    <script src="dist/js/main.min.js"></script>
 </body>
 
 </html>
