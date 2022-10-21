@@ -1,42 +1,28 @@
 footer {
-  background-color: $brown;
- padding: 78px 100px 0 200px;
+    background-color: $brown;
+    padding-top: 81px 
 
 
-
-// &__scroll{
-// margin-left: 50px;
-// }
 }
-.content{
-    // display:flex;
 
-    &__text{
+.foot {
+    &__text {
         font-size: 11px;
         font-family: $Montserrat-Medium;
-        color:$white;
+        color: $white;
         margin-bottom: 20px;
-        @include media-breakpoint-up(lg) {
-           
-           
-        }
     }
 
-    &__scroll{
+    &__scroll {
         text-transform: uppercase;
         //  margin-left: 300px;
         font-size: 11px;
         font-family: $Montserrat-Medium;
-        color:$white;
-     }
-     &__logo{
-        width:auto;
-        margin-bottom: 30px;
-     }
-}
+        color: $white;
+    }
 
-// .logo{
- 
-    
-// }
- 
+    &__logo {
+        width: auto;
+        margin-bottom: 30px;
+    }
+}
