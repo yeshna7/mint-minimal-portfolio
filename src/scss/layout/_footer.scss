@@ -1,8 +1,6 @@
 footer {
     background-color: $brown;
-    padding-top: 81px 
-
-
+    padding-top: 81px
 }
 
 .foot {
@@ -14,15 +12,29 @@ footer {
     }
 
     &__scroll {
+        // display:flex-end;
         text-transform: uppercase;
-        //  margin-left: 300px;
+        margin-left: 0;
+        margin-top: 10px;
         font-size: 11px;
         font-family: $Montserrat-Medium;
         color: $white;
+        @include media-breakpoint-up(lg) {
+            margin-left: 350px;
+        }
     }
 
     &__logo {
         width: auto;
         margin-bottom: 30px;
+    }
+
+    &__item {
+        display: flex;
+    }
+
+    &__text {
+        margin-left: 30px;
+        margin-top: 10px;
     }
 }
