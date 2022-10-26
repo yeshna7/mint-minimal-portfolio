@@ -26,6 +26,11 @@
         text-transform: uppercase;
         font-family: $Montserrat-Medium;
 
+        &__link:hover{
+            background-color:$bright-yellow ;
+            padding: 7px 11px 14px 20px;
+        }
+
         @include media-breakpoint-up(lg) {
             margin-right: 19px;
             font-size: 12px;
@@ -46,6 +51,7 @@
     font-family: $Montserrat-Medium;   
     text-transform: uppercase;
    }
+ 
 
     
 }
@@ -53,11 +59,11 @@
 
 
 .active {
-    background-color: $yellow;
+    background-color: $bright-yellow;
     padding: 7px 8px 8px 10px;
 
     @include media-breakpoint-up(lg) {
-        padding: 7px 15px 14px 20px;
+        padding: 7px 11px 14px 20px;
     }
 }
 
@@ -82,6 +88,17 @@
         padding: 17px 58px;
         margin-bottom: 191px;
     }
+}
+
+.filter{
+    display:flex;
+    justify-content: space-between;
+
+    &__img{
+        width:98px;
+        margin-bottom: 246px;
+        // margin-left: 100px;
+       }
 }
 
 .image1 {

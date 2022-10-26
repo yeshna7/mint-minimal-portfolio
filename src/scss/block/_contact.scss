@@ -3,7 +3,7 @@
         font-size: 40px;
         font-family: $Montserrat-ExtraBold;
         margin-bottom: 30px;
-        text-transform: uppercase;
+        // text-transform: uppercase;
 
         @include media-breakpoint-up(lg) {
             font-size: 58.79px;
@@ -14,7 +14,7 @@
     &__desc {
         margin-bottom: 50px;
         font-size: 12px;
-        line-height: 25px;
+        line-height: 30px;
         font-family: $Montserrat-Medium;
 
         @include media-breakpoint-up(lg) {
@@ -91,6 +91,8 @@
     padding: 15px 35px 22px 38px;
     background-color: $bright-yellow;
     margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
 
     @include media-breakpoint-up(lg) {
         font-size: 12px;
