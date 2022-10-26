@@ -1,57 +1,71 @@
 .About-Us {
+
     // position: relative;
     &__title {
         font-size: 40px;
         font-family: $Montserrat-ExtraBold;
         text-transform: uppercase;
         margin-bottom: 40px;
+
         @include media-breakpoint-up(lg) {
-            margin-bottom: 72px;
-            font-size: 58.79px;
+            margin-bottom: 70px;
+            font-size: 60px;
         }
     }
+
     &__desc {
         font-size: 12px;
         line-height: 25px;
         font-family: $Montserrat-Medium;
         margin-bottom: 24px;
+
         @include media-breakpoint-up(lg) {
             margin-bottom: 68px;
         }
     }
+
     &__type {
         font-size: 20px;
         font-family: $Montserrat-ExtraBold;
         margin-bottom: 46px;
     }
+
     &__text {
         font-size: 12px;
         line-height: 28px;
         font-family: $Montserrat-Medium;
-        margin-bottom: 58px;
+        margin-bottom: 57px;
         max-width: 252px;
     }
+
     &__info {
         text-decoration: none;
         font-size: 12px;
         font-family: $Montserrat-Medium;
     }
+
     &__image {
+        position: relative;
         margin-bottom: 30px;
+
         @include media-breakpoint-up(lg) {
             margin-bottom: 0;
         }
     }
+
     &__contents {
         padding-left: 0;
         padding-right: 40px;
+        padding-top: 0;
+
         @include media-breakpoint-up(lg) {
             padding-left: 80px;
-            padding-top:80px ;
+            padding-top: 80px;
         }
     }
+
     &__button {
-        padding: 14px 70px 20px 22px;
+        padding: 14px 101px 20px 27px;
         background-color: $yellow;
         position: absolute;
         bottom: 0;
@@ -59,20 +73,19 @@
 
         @include media-breakpoint-up(lg) {
             padding: 14px 97px 22px 25px;
-            
         }
     }
+
    
-    &__image {
-        position: relative;
-    }
 }
+
 .title2 {
     color: $white;
     font-family: $Montserrat-Medium;
     font-size: 12px;
     line-height: 25px;
 }
+
 .title {
     font-size: 15px;
     font-family: $Montserrat-ExtraBold;

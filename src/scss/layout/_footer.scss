@@ -19,6 +19,7 @@ footer {
         font-size: 11px;
         font-family: $Montserrat-Medium;
         color: $white;
+
         @include media-breakpoint-up(lg) {
             margin-left: 350px;
         }
@@ -38,3 +39,4 @@ footer {
         margin-top: 10px;
     }
 }
+

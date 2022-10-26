@@ -8,8 +8,8 @@
         text-transform: uppercase;
 
         @include media-breakpoint-up(lg) {
-            font-size: 58.79px;
-            margin-bottom: 64px;
+            font-size:58.79 px;
+            margin-bottom: 66px;
         }
     }
 
@@ -20,7 +20,7 @@
         margin-bottom: 32px;
 
         @include media-breakpoint-up(lg) {
-            margin-bottom: 64px;
+            margin-bottom: 69px;
         }
     }
 
@@ -50,7 +50,7 @@
     &__date {
         font-size: 12px;
         font-family: $Montserrat-Medium;
-        margin-bottom: 100px;
+        margin-bottom: 266px;
         font-family: $Montserrat-Medium;
     }
 
