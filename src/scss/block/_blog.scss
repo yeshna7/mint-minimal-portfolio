@@ -1,14 +1,14 @@
 .blog {
-    padding: 150px 0 20px 0;
+    padding: 150px 0 265px 0;
 
     &__title {
         font-size: 40px;
         font-family: $Montserrat-ExtraBold;
         margin-bottom: 32px;
-        // text-transform: uppercase;
+        text-transform: uppercase;
 
         @include media-breakpoint-up(lg) {
-            font-size:60px;
+            font-size: 60px;
             margin-bottom: 66px;
         }
     }
@@ -43,18 +43,13 @@
         font-size: 12px;
         font-family: $Montserrat-Medium;
         margin-bottom: 24px;
-        max-width:318px;
+        max-width: 318px;
         line-height: 30px;
     }
 
     &__date {
         font-size: 12px;
-        font-family: $Montserrat-Medium;
-        margin-bottom: 265px;
+        margin-bottom: 10px;
         font-family: $Montserrat-Medium;
     }
-
-    // @include media-breakpoint-up(lg) {
-    //     margin-bottom: 200px;
-    // }
 }

@@ -1,4 +1,6 @@
 .work {
+    padding: 125px 0 146px 0;
+
     &__title {
         font-size: 40px;
         margin-bottom: 38px;
@@ -21,15 +23,10 @@
 
     &__link {
         text-decoration: none;
-        margin-right: 10px;
+        margin-right: 3px;
         font-size: 10px;
         text-transform: uppercase;
         font-family: $Montserrat-Medium;
-
-        &__link:hover{
-            background-color:$bright-yellow ;
-            padding: 7px 11px 14px 20px;
-        }
 
         @include media-breakpoint-up(lg) {
             margin-right: 19px;
@@ -39,41 +36,57 @@
 
     &__list {
         display: inline-block;
-        margin-bottom: 20px;
+
+        // margin-bottom: 20px;
+        &:hover {
+            background-color: $bright-yellow;
+            padding: 7px 10px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            margin-right: 38px;
+        }
     }
 
-    @include media-breakpoint-up(lg) {
-        margin-right: 38px;
+    &__select {
+        font-size: 12px;
+        font-family: $Montserrat-Medium;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: $bright-yellow;
+            padding: 7px 10px;
+        }
     }
-
-   &__select{
-    font-size: 12px; 
-    font-family: $Montserrat-Medium;   
-    text-transform: uppercase;
-   }
- 
-
-    
 }
 
+.grid-item{
+    width: 500px;
+}
+image{
+   width: 100%;     
+}
 
+.block-title {
+    font-size: 40px;
+    margin-bottom: 38px;
+    font-family: $Montserrat-ExtraBold;
+    text-transform: uppercase;
+
+    @include media-breakpoint-up(lg) {
+        font-size: 60px;
+        margin-bottom: 73px;
+    }
+}
 
 .active {
     background-color: $bright-yellow;
-    padding: 7px 8px 8px 10px;
 
+    // padding: 7px 8px 8px 10px;
     @include media-breakpoint-up(lg) {
-        padding: 7px 11px 14px 20px;
+        padding: 7px 10px;
     }
 }
-
-// .left {
-//     margin-left: 0;
-
-//     @include media-breakpoint-up(lg) {
-//         margin-left: 680px;
-//     }
-// }
 
 .btn-show {
     text-transform: uppercase;
@@ -90,20 +103,26 @@
     }
 }
 
-.filter{
-    display:flex;
-    justify-content: space-between;
+.logos {
+    display: inline-block;
+    justify-content: center;
 
-    &__img{
-        width:98px;
-        margin-bottom: 246px;
+    @include media-breakpoint-up(lg) {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    &__img {
+        width: 98px;
+        margin-left: 20px;
         // margin-left: 100px;
-       }
+    }
 }
 
 .image1 {
     margin-bottom: 29px;
 }
+
 // .image1:hover{
 //     position: absolute;
 //     top: 0;
@@ -112,10 +131,6 @@
 //     transform:translateY(10px);
 //     z-index: 2;
 // }
-
 .image {
     margin-bottom: 60px;
 }
-
-
-
