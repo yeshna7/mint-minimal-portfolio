@@ -7,4 +7,11 @@ $(document).ready(function(){
     $(".toggle-button-close").click(function () {
         $("body").removeClass("showing");
       });
+
+      $('.grid').masonry({
+        // options
+        itemSelector: '.grid-item',
+        columnWidth: 200
+      });
 });
+
