@@ -14,11 +14,15 @@
     }
 
     &__wrapper {
-        display: flex;
+        display: inline-block;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         margin-bottom: 81px;
+        @include media-breakpoint-up(lg) {
+            display: flex;
+        }
+
     }
 
     &__link {
@@ -27,6 +31,12 @@
         font-size: 10px;
         text-transform: uppercase;
         font-family: $Montserrat-Medium;
+        padding: 7px 10px;
+
+        &:hover {
+            background-color: $bright-yellow;
+           
+        }
 
         @include media-breakpoint-up(lg) {
             margin-right: 19px;
@@ -38,10 +48,7 @@
         display: inline-block;
 
         // margin-bottom: 20px;
-        &:hover {
-            background-color: $bright-yellow;
-            padding: 7px 10px;
-        }
+       
 
         @include media-breakpoint-up(lg) {
             margin-right: 38px;
@@ -52,18 +59,29 @@
         font-size: 12px;
         font-family: $Montserrat-Medium;
         text-transform: uppercase;
+        margin-top: 20px;
+        // padding: 7px 10px;
 
         &:hover {
             background-color: $bright-yellow;
-            padding: 7px 10px;
+            
+        }
+        @include media-breakpoint-up(lg) {
+            margin-right: 0;
         }
     }
 }
 
-
-image{
-   width: 100%;     
+// image {
+//     width: 368px;
+//     height:296px;
+// }
+.grid-item{
+    max-width: 398px;
 }
+.grid-image{
+        margin-bottom: 30px;
+    }
 
 .block-title {
     font-size: 40px;
@@ -94,6 +112,9 @@ image{
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
+    &:hover{
+        background-color:gold;
+    }
 
     @include media-breakpoint-up(lg) {
         padding: 17px 58px;
@@ -117,9 +138,9 @@ image{
     }
 }
 
-.image {
-    margin-bottom: 29px;
-}
+// .image {
+//     margin-bottom: 29px;
+// }
 
 // .image1:hover{
 //     position: absolute;

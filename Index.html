@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="dist/css/main.min.css">
+    <link rel="stylesheet" href="dist/css/nice-select.css">
     <title>Mint-minimal-portfolio</title>
 </head>
 
@@ -129,25 +130,25 @@
                                 <source media="(min-width: 430px)" srcset=" https://placeimg.com/366/494/any">
                                 <img src=" https://placeimg.com/366/494/any" class="image">
                             </picture>
-                        </div> -->
+                        </div>  -->
                         <div class="grid">
                             <div class="grid-item">
-                              <img src="src/images/any.jpg">
+                                <img src="src/images/any1.jpg" class="grid-image">
                             </div>
                             <div class="grid-item">
-                                <img src="src/images/any.jpg">
+                                <img src="src/images/any.jpg" class="grid-image">
                             </div>
                             <div class="grid-item">
-                                <img src="src/images/any.jpg">
+                                <img src="src/images/any1.jpg" class="grid-image">
                             </div>
                             <div class="grid-item">
-                                <img src="src/images/any.jpg">
+                                <img src="src/images/any.jpg" class="grid-image">
                             </div>
                             <div class="grid-item">
-                                <img src="src/images/any.jpg">
+                                <img src="src/images/any.jpg" class="grid-image">
                             </div>
                             <div class="grid-item">
-                                <img src="src/images/any.jpg">
+                                <img src="src/images/any1.jpg" class="grid-image">
                             </div>
                         </div>
                     </div>
@@ -226,10 +227,12 @@
                                 <source media="(min-width: 430px)" srcset=" https://placeimg.com/367/280/any">
                                 <img src=" https://placeimg.com/367/280/any " class="blog__img">
                             </picture>
-                            <h6 class="blog__type">super blog article!</h6>
-                            <p class="blog__text">Lorem ipsum dolor sit amet, co
-                                ctetuer undo thes tabore et dolore magna aliqua</p>
-                            <p class="blog__date"> 20 may 2020</p>
+                            <div class="blog-item">
+                                <h6 class="blog-item__type">super blog article!</h6>
+                                <p class="blog-item__text">Lorem ipsum dolor sit amet, co
+                                    ctetuer undo thes tabore et dolore magna aliqua</p>
+                                <p class="blog-item__date"> 20 May 2020</p>
+                            </div>
                         </div>
                         <div class="col-lg-4">
                             <picture>
@@ -237,25 +240,30 @@
                                 <source media="(min-width: 430px)" srcset=" https://placeimg.com/367/280/any">
                                 <img src=" https://placeimg.com/367/280/any" class="blog__img">
                             </picture>
-                            <h6 class="blog__type">super blog article!</h6>
-                            <p class="blog__text">Lorem ipsum dolor sit amet, co
-                                ctetuer undo thes tabore et dolore magna aliqua</p>
-                            <p class="blog__date"> 20 may 2020</p>
+                            <div class="blog-item">
+                                <h6 class="blog-item__type">super blog article!</h6>
+                                <p class="blog-item__text">Lorem ipsum dolor sit amet, co
+                                    ctetuer undo thes tabore et dolore magna aliqua</p>
+                                <p class="blog-item__date"> 20 May 2020</p>
+                            </div>
                         </div>
                         <div class="col-lg-4">
                             <picture>
                                 <source media="(min-width: 650px)" srcset=" https://placeimg.com/367/280/any">
                                 <source media="(min-width: 430px)" srcset=" https://placeimg.com/367/280/any">
                                 <img src=" https://placeimg.com/367/280/any" class="blog__img">
-                                <h6 class="blog__type">super blog article!</h6>
-                                <p class="blog__text">Lorem ipsum dolor sit amet, co
-                                    ctetuer undo thes tabore et dolore magna aliqua</p>
-                                <p class="blog__date"> 20 may 2020</p>
+                                <div class="blog-item">
+                                    <h6 class="blog-item__type">super blog article!</h6>
+                                    <p class="blog-item__text">Lorem ipsum dolor sit amet, co
+                                        ctetuer undo thes tabore et dolore magna aliqua</p>
+                                    <p class="blog-item__date"> 20 May 2020</p>
                             </picture>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
         <div class="contact">
             <div class="container">
@@ -269,27 +277,27 @@
                             <h6 class="contact__type">Send Us Message.</h6>
                             <form>
                                 <div class="form__label">
-                                    <label for="Name">Name</label>
+                                    <label for="Name" class="form__label">Name</label>
                                     <input type="text" id="Name" name="Name" class="form__input">
                                 </div>
                                 <div class="form__label">
-                                    <label for="Email">Email</label>
+                                    <label for="Email" class="form__label">Email</label>
                                     <input type="text" id="Email" name="Email" class="form__input">
                                 </div>
                                 <div class="form__label1">
-                                    <label for="Message">Message</label>
-                                    <input type="text" id="Message" name="Message" class="form__input">
+                                    <label for="Message" class="form__label">Message</label>
+                                    <textarea id="Message" name="Message" class="form__input1"></textarea>
                                 </div>
                                 <div class="form-item">
                                     <button type="submit" class="btn btn-warn">send message</button>
                                 </div>
                             </form>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 ">
                             <picture>
-                                <source media="(min-width: 650px)" srcset=" https://placeimg.com/568/468/any">
-                                <source media="(min-width: 430px)" srcset=" https://placeimg.com/568/468/any">
-                                <img src=" https://placeimg.com/568/468/any" class="contact__img">
+                                <source media="(min-width: 650px)" srcset=" https://placeimg.com/568/470/any">
+                                <source media="(min-width: 430px)" srcset=" https://placeimg.com/568/470/any">
+                                <img src=" https://placeimg.com/568/470/any" class="contact__img">
                             </picture>
                         </div>
                         <div class="contact__icons">
@@ -356,9 +364,8 @@
     <script src="dist/js/jquery-3.5.1.js"></script>
     <script src="dist/js/masonry.js"></script>
     <script src="dist/js/scrollup.js"></script>
+    <script src="dist/js/jquery.nice-select.min.js"></script>
     <script src="dist/js/main.min.js"></script>
-
-    
 </body>
 
 </html>

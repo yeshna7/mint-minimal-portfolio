@@ -4,7 +4,8 @@ $colors: (
   red: #ff0000,
   yellow:#ffe100,
   brown:#1e1e1e,
-  bright-yellow:#ffe600
+  bright-yellow:#ffe600,
+  grey:1e1e1e
  
 );
 
@@ -33,6 +34,7 @@ $red: map-get($colors, red);
 $yellow: map-get($colors, yellow);
 $brown: map-get($colors, brown);
 $bright-yellow: map-get($colors, bright-yellow);
+$grey: map-get($colors, grey);
 
 $regular: map-get($font-weight, regular);
 

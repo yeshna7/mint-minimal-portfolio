@@ -1,16 +1,22 @@
 .navbar {
-    padding: 51px;
+    padding: 50px 20px;
 
     &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        margin-bottom: 100px;
 
+        // margin-bottom: 100px;
         @include media-breakpoint-up(lg) {
             display: flex;
         }
+    }
+
+    .logo {
+        position: relative;
+        top: 0;
+        z-index: 1;
     }
 
     &__item {
@@ -23,13 +29,17 @@
             // top: 0;
             // left: 0;
             width: 100%;
-            height: 50vh;
+            // height: 50vh;
             display: flex;
             // background: $black;
-            padding-top: 80px;
-            padding-left: 50px;
+            padding-top: 120px;
+            // padding-left: 50px;
             // padding-bottom: 10px;
             flex-direction: column;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: $yellow;
         }
 
         @include media-breakpoint-up(lg) {
@@ -69,6 +79,8 @@
     // position: relative;
     // color: $white;
     font-size: 25px;
+    position: relative;
+    z-index: 1;
 
     //  .showing & {
     //     display: none;

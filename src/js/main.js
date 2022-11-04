@@ -4,14 +4,20 @@ $(document).ready(function(){
       $("body").toggleClass("showing");
     });
 
-    $(".toggle-button-close").click(function () {
-        $("body").removeClass("showing");
-      });
 
       $('.grid').masonry({
         // options
         itemSelector: '.grid-item',
-        columnWidth: 200
+       gutter:30,
+      });
+
+      $(".work__link").click(function(event){
+        event.preventDefault();
+      });
+
+      $(document).ready(function() {
+        $('select').niceSelect();
+
       });
 });
 

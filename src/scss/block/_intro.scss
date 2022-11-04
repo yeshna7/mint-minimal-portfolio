@@ -29,11 +29,17 @@
     padding: 17px 25px;
     background-color: $yellow;
     font-size: 15px;
-    margin-bottom: 100px;
     font-family: $Montserrat-Medium;
     align-items: center;
     justify-content: center;
-    // @include media-breakpoint-up(lg) {
-    //     margin-bottom: 203px;
-    // }
+    margin-bottom: 10px;
+    
+    &:hover{
+        background-color:gold;
+    }
+
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+    }
+   
 }
