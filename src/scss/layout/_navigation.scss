@@ -22,7 +22,8 @@
     &__item {
         display: none;
         justify-content: space-between;
-        align-items: center;
+        // align-items: center;
+        padding-left: 45px;
 
         .showing & {
             // position: fixed;
@@ -58,13 +59,13 @@
 
     &__list {
         // display: none;
-        margin-right: 87px;
         text-transform: uppercase;
         font-family: $Montserrat-Medium;
         margin-bottom: 20px;
 
         @include media-breakpoint-up(lg) {
             display: inline-block;
+            margin-right: 87px;
         }
     }
 }

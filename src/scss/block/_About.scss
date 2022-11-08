@@ -1,5 +1,9 @@
 .about-us {
-    padding: 125px 0 146px 0;
+    padding: 15px 0 50px;
+    
+    @include media-breakpoint-up(lg) {
+        padding: 125px 0 146px 0;
+    }
 
     &__title {
         font-size: 40px;
@@ -69,9 +73,10 @@
         position: absolute;
         bottom: 0;
         left: 0;
+        padding: 14px 25px 22px 25px;
 
         @include media-breakpoint-up(lg) {
-            padding: 14px 25px 22px 25px;
+            // padding: 14px 25px 22px 25px;
             min-width: 250px
         }
     }
